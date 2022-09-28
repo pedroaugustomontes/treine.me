@@ -4,9 +4,15 @@
   text-decoration: none;
 }
 
+body {
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+  min-height: 100vh;
+}
+
 .page {
   max-width: 1008px;
-  margin: 65px auto 30px auto;
+  padding-top: 65px;
+  margin: 0 auto;
 }
 
 nav {
@@ -106,4 +112,10 @@ footer {
 footer a {
   font-weight: bold;
   color: #000000;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
