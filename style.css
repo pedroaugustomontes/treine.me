@@ -9,6 +9,10 @@ body {
   min-height: 100vh;
 }
 
+img {
+  max-width: 100%;
+}
+
 .page {
   max-width: 1008px;
   padding-top: 65px;
@@ -26,6 +30,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 ol {
@@ -119,3 +124,28 @@ footer a {
   bottom: 0;
   right: 0;
 }
+
+@media (max-width: 1200px) {
+  .page {
+    max-width: 600px;
+  }
+  
+}
+
+@media (max-width: 760px) {
+  .page {
+    max-width: 300px;
+    padding-top: 30px;
+  }
+  nav {
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  #woman {
+    margin-top: 30px;
+  }
+  footer {
+    margin: 30px auto 15px auto;
+  }
+} 
