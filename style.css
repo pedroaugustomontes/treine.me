@@ -76,17 +76,22 @@ main p {
 button {
   display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 10px;
   padding: 14px 32px;
   background: #69B99D;
-  border: transparent;
+  border: 0;
   border-radius: 4px;
-  gap: 10px;
-  text-transform: uppercase;
   color: #F9F9F9;
+  text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
+  cursor: pointer;
+}
+button:hover {
+  background: #4ea788;
 }
 
 footer {
