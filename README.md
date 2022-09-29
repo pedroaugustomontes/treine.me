@@ -1,5 +1,7 @@
 <h1 align="center">
-    <img alt="treine.me" title="Treine.me" src="img/logo.svg" />
+    <a href="https://mrpmontes.github.io/treine.me/">
+        <img alt="Logo que contém um link que leva até a página treine.me" title="Link que leva até a página Treine.me" src="img/logo.svg" />
+    </a>
 </h1>
 
 <p align="center">
@@ -9,7 +11,9 @@
 </p>
 
 <p align="center">
- <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=8257E5&labelColor=000000" alt="PRs welcome!" />
+   <a href="https://github.com/MrPMontes/treine.me/pulls">
+     <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=8257E5&labelColor=000000" alt="PRs welcome!" title="Link que leva até a página de pull requests"/>
+   </a>
 </p>
 
 <br>
@@ -48,6 +52,10 @@ cd treine.me
 ```
 
 Feito isso, execute no seu navegador o arquivo `index.html`
+
+ou
+
+Para ver o projeto online clique no <a href="https://mrpmontes.github.io/treine.me/">link</a>.
 
 ---
 
