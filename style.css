@@ -128,24 +128,42 @@ footer a {
 @media (max-width: 1200px) {
   .page {
     max-width: 600px;
+    padding-top: 32px;
   }
-  
+  nav {
+    margin-bottom: 32px;
+  }
+  footer {
+    margin: 32px 30px;
+  }
 }
 
 @media (max-width: 760px) {
   .page {
-    max-width: 300px;
-    padding-top: 30px;
+    max-width: 280px;
+    padding-top: 24px;
+  }
+  #logo {
+    margin-bottom: 16px;
   }
   nav {
-    margin-bottom: 20px;
+    margin-bottom: 32px;
     flex-wrap: wrap;
     flex-direction: column;
   }
+  .text h1, .text span {
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 32px;
+    max-width: 250px
+  }
+  main p {
+    margin-bottom: 32px;
+  }
   #woman {
-    margin-top: 30px;
+    margin-top: 32px;
   }
   footer {
-    margin: 30px auto 15px auto;
+    margin: 32px auto 16px auto;
   }
 } 
